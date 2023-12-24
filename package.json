@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,6 +31,7 @@
     "trailingComma": "es5"
   },
   "name": "promptsity",
+  "description": "Build dynamic prompts, without the hassle.",
   "author": "Marti Serra",
   "module": "dist/promptsity.esm.js",
   "size-limit": [
@@ -43,6 +44,18 @@
       "limit": "10 KB"
     }
   ],
+  "keywords": [
+    "javascript",
+    "prompts",
+    "input",
+    "mongu",
+    "validation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martiserra99/promptsity"
+  },
+  "homepage": "https://promptsity-docs.vercel.app",
   "devDependencies": {
     "@size-limit/preset-small-lib": "^11.0.1",
     "@types/prompts": "^2.4.9",
