@@ -1,6 +1,6 @@
 # promptsity
 
-Build dynamic prompts, without the hassle.
+Build dynamic prompts, easily with JSON syntax.
 
 ## Overview
 
