@@ -10,7 +10,7 @@ However, for users seeking to incorporate advanced logic and dependencies based 
 
 ## Dependencies
 
-Promptsity depends on two packages, [Mongu](https://mongu-docs.vercel.app) and [Prompts](https://www.npmjs.com/package/prompts). We suggest you to be at least a little familiar with these packages before using Promptsity.
+Promptsity depends on two packages, [Mongu](https://martiserra.me/mongu) and [Prompts](https://www.npmjs.com/package/prompts). We suggest you to be at least a little familiar with these packages before using Promptsity.
 
 ## Installation
 
@@ -22,7 +22,7 @@ npm install promptsity
 
 ## Documentation
 
-Check out the documentation [here](https://www.martiserra.me/promptsity).
+Check out the documentation [here](https://martiserra.me/promptsity).
 
 ## License
 

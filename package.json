@@ -55,7 +55,7 @@
     "type": "git",
     "url": "https://github.com/martiserra99/promptsity"
   },
-  "homepage": "https://www.martiserra.me/promptsity",
+  "homepage": "https://martiserra.me/promptsity",
   "devDependencies": {
     "@size-limit/preset-small-lib": "^11.0.1",
     "@types/prompts": "^2.4.9",
