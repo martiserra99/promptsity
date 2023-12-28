@@ -22,7 +22,7 @@ npm install promptsity
 
 ## Documentation
 
-Check out the documentation [here](https://promptsity-docs.vercel.app).
+Check out the documentation [here](https://www.martiserra.me/promptsity).
 
 ## License
 

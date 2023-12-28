@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -55,7 +55,7 @@
     "type": "git",
     "url": "https://github.com/martiserra99/promptsity"
   },
-  "homepage": "https://promptsity-docs.vercel.app",
+  "homepage": "https://www.martiserra.me/promptsity",
   "devDependencies": {
     "@size-limit/preset-small-lib": "^11.0.1",
     "@types/prompts": "^2.4.9",
