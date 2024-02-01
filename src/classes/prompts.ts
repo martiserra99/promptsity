@@ -1,4 +1,4 @@
-import { Object, Value } from 'mongu';
+import { Value } from 'mongu';
 
 import { JsonList } from '../types/json';
 import { Position } from '../types/position';
@@ -40,7 +40,7 @@ class Prompts {
    * @param values The values.
    * @returns The next prompts point or return point.
    */
-  next(point: PointPrompts, values: Object<Value>): StopPoint {
+  next(point: PointPrompts, values: { [key: string]: Value }): StopPoint {
     const nextPoint = this._nextStopPoint(
       this._nextStepPoint(point.addVariables(values))
     );
@@ -82,7 +82,7 @@ class Prompts {
 
   _nextPointVariables(point: StepPoint): StepPoint {
     return point instanceof PointVariables
-      ? point.addVariables(point.value as Object<Value>)
+      ? point.addVariables(point.value as { [key: string]: Value })
       : point;
   }
 
